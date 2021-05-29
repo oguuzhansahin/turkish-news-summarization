@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 1px;
+    background-color: gainsboro;
+    
+
+}
+
+body {
+    display: flexbox;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    text-align: center;
+    min-height: 100vh;
+    margin-top: 20px;
+    
+    
+}
+
+
+body h1 {
+    color: black;
+    font: outline;
+}
+body h2 {
+    color: bisque;
+}
+
+body form textarea {
+    width: 100%;
+    position: relative;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    
+    display: flexbox;
+    text-align: left;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+body form textarea {
+    
+    background: #fff;
+    color: #25252A;
+    padding-top: 20px;
+    resize: inherit;
+    border: #25252A;
+    width: 75%;
+    height: 250px;
+
+}
+
+
+form .btn-1 {
+    
+    width: 150px;
+    height: 60px;
+    border: none;
+    color: white;
+    background-color:darkviolet;
+    border-radius: 5rem;
+    box-shadow: inset 0 0 0 0 #fff;
+    transition: ease-out 0.3s;
+    font-size: 1rem;
+    outline: none;
+    
+}
+
+form .btn-1:hover {
+    box-shadow: inset 300px 0 0 0 #fff;
+    cursor: pointer;
+    color: #000000
+}
+
+/* Clear Button*/
+form .btn-2 {
+    width: 100px;
+    height: 50px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 1rem;
+    outline: none;
+    border: 3px solid #42FBF2;
+    position: relative;
+    z-index: 1;
+
+
+}
+form.btn-2:hover {
+    color: #fff;
+    cursor: pointer;
+}
+form .btn-2:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    bottom: 0;
+    opacity:0;
+    content:"";
+    background-color: #42FBF2;
+
+}
+
+form .btn-2:hover:before {
+    transition: 0.5s all ease;
+    left:0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+}
+
+/*footer*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+}
+footer{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #111;
+  background-color: #dcdcdc;
+}
+footer .content{
+  max-width: 1350px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .content p,a{
+  color: black;
+}
+footer .content .box{
+  width: 33%;
+  transition: all 0.4s ease;
+}
+footer .content .topic{
+  font-size: 22px;
+  font-weight: 600;
+  color: green;
+  margin-bottom: 16px;
+
+}
+footer .content p{
+  text-align: justify;
+}
+footer .content .lower .topic{
+  margin: 24px 0 5px 0;
+}
+footer .content .lower i{
+  padding-right: 16px;
+}
+footer .content .middle{
+  padding-left: 80px;
+}
+footer .content .middle a{
+  line-height: 32px;
+}
+footer .content .right input[type="text"]{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  color: #d9d9d9;
+  background: #000;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 2px solid #222222;
+}
+footer .content .right input[type="submit"]{
+  height: 42px;
+  width: 100%;
+  font-size: 18px;
+  color: #d9d9d9;
+  background: #eb2f06;
+  outline: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 12px;
+  border: 2px solid #eb2f06;
+  transition: all 0.3s ease-in-out;
+}
+.content .right input[type="submit"]:hover{
+  background: none;
+  color:  #eb2f06;
+}
+footer .content .media-icons a{
+  font-size: 16px;
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  text-align: center;
+  line-height: 43px;
+  border-radius: 5px;
+  border: 2px solid #222222;
+  margin: 30px 5px 0 0;
+  transition: all 0.3s ease;
+}
+.content .media-icons a:hover{
+  border-color: white;
+}
+footer .bottom{
+  width: 100%;
+  text-align: right;
+  color: #d9d9d9;
+  padding: 0 40px 5px 0;
+}
+footer .bottom a{
+  color:purple;
+}
+footer a{
+  transition: all 0.3s ease;
+}
+footer a:hover{
+  color: purple;
+}
+@media (max-width:1100px) {
+  footer .content .middle{
+    padding-left: 50px;
+  }
+}
+@media (max-width:950px){
+  footer .content .box{
+    width: 50%;
+  }
+  .content .right{
+    margin-top: 40px;
+  }
+}
+@media (max-width:560px){
+  footer{
+    position: relative;
+  }
+  footer .content .box{
+    width: 100%;
+    margin-top: 30px;
+  }
+  footer .content .middle{
+    padding-left: 0;
+  }
+}

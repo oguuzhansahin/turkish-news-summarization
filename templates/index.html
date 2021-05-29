@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Turkish News Summarizer</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+</head> 
+
+<body> 
+    
+        
+    <div class="ml-container"> 
+        <br>
+        <h1>Turkish News Summarizer</h1> <br>
+        <form action="{{ url_for('predict')}}" method="POST">
+            
+            
+            <textarea name="text" placeholder="Haber metnini yazın." ></textarea><br>
+            <br>
+            
+            
+            <button class = "btn-1">Summarize</button>
+            
+        </form>
+    </div>
+
+<!--footer-->
+
+<footer>
+    <div class="content">
+      <div class="left box">
+        <div class="upper">
+          <div class="topic">About us</div>
+          <p>We are Computer Engineer students. We work on Machine Learning and NLP.
+            If you have any questions contact us.
+          </p>
+        </div>
+        <div class="lower">
+
+        </div>
+      </div>
+
+      <div class="middle box">
+          <div class="topic">Contact us</div>
+          <div class="email">
+          <a href="mailto:kapmaznida@gmail.com"><i class="fas fa-envelope"></i>kapmaznida@gmail.com</a> <br>
+          <a href="mailto:oguuzhansahiin@gmail.com"><i class="fas fa-envelope"></i>oguuzhansahiin@gmail.com</a>
+          </div>
+
+        </div>
+
+
+
+      <div class="right box">
+
+        <div class="topic">Subscribe us</div>
+        <form action="#">
+          <div class="media-icons">
+            <a href="https://github.com/oguuzhansahin"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/oguzhan-sahin-73b480165/"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/kapmaznida"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/kapmaznida/"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </footer>
+
+  </body>    
+</html>  
