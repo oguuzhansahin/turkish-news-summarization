@@ -62,6 +62,13 @@ scrapy crawl webtekno --logfile webktekno.log -o webtekno.json -t jsonlines
 
 ## Result
 
-<img src="img/text_summarizer_example.jpeg" /> <img src="img/text_summarizer_link_ex.jpg" />
+<p align="left">
+  <img src="img/text_summarizer_example.jpeg" />
+</p>
+
+<p align="right">
+  <img src="img/text_summarizer_link_ex.jpg" />
+</p>
+ 
 
 This repository is created by [Oguzhan Sahin](https://github.com/oguuzhansahin) and [Nida kapmaz]((https://github.com/kapmaznida)
