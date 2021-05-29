@@ -59,4 +59,9 @@ scrapy crawl webtekno --logfile webktekno.log -o webtekno.json -t jsonlines
 - tf_idf.py here will be used for labelling news text.
 
 - Once you prepare your data for fine-tuning, you can run fine-tune.ipynb noteboook.
+
+## Result
+
+<img src="img/text_summarizer_example.jpeg" /> <img src="img/text_summarizer_link_ex.jpg" />
+
 This repository is created by [Oguzhan Sahin](https://github.com/oguuzhansahin) and [Nida kapmaz]((https://github.com/kapmaznida)
