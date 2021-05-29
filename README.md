@@ -45,11 +45,18 @@ Equal Contribution
 
 ## How to run?
 
-- If you do not have data, you can run crawler first. In scrapy_crawlers, run below script:
+- If you do not have data, you can run crawler first. In scrapy_crawlers/spiders/, run below script:
 
 ```
 scrapy crawl webtekno --logfile webktekno.log -o webtekno.json -t jsonlines
 ```
 - Once you run this script, you will have 2 files (webtekno.log, webtekno.json). In webtekno.json, you will have urls. If you change the urls, you need to adjust webtekno.py.
 
+- In scrapy_crawler/spiders/, there is parse_json.py for parsing json files and gives an .csv files as an output.
+
+- To get new text, scraping.py takes an input urls csv, and return urls and text csv file.
+
+- tf_idf.py here will be used for labelling news text.
+
+- Once you prepare your data for fine-tuning, you can run fine-tune.ipynb noteboook.
 This repository is created by [Oguzhan Sahin](https://github.com/oguuzhansahin) and [Nida kapmaz]((https://github.com/kapmaznida)
