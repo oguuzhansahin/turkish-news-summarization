@@ -70,4 +70,4 @@ scrapy crawl webtekno --logfile webktekno.log -o webtekno.json -t jsonlines
 
 
 
-This repository is created by [Oguzhan Sahin](https://github.com/oguuzhansahin) and [Nida kapmaz](https://github.com/kapmaznida)
+This repository is created by [Oguzhan Sahin](https://github.com/oguuzhansahin) and [Nida Kapmaz](https://github.com/kapmaznida)
