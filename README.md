@@ -60,7 +60,7 @@ scrapy crawl webtekno --logfile webktekno.log -o webtekno.json -t jsonlines
 
 - Once you prepare your data for fine-tuning, you can run fine-tune.ipynb noteboook.
 
-## Result
+## Results
 
 <p align="center">
   <img src="img/text_summarizer_example.jpeg" />
