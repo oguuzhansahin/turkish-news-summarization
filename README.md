@@ -45,7 +45,11 @@ Equal Contribution
 
 ## How to run?
 
+- If you do not have data, you can run crawler first. In scrapy_crawlers, run below script:
 
-
+```
+scrapy crawl webtekno --logfile webktekno.log -o webtekno.json -t jsonlines
+```
+- Once you run this script, you will have 2 files (webtekno.log, webtekno.json). In webtekno.json, you will have urls. If you change the urls, you need to adjust webtekno.py.
 
 This repository is created by [Oguzhan Sahin](https://github.com/oguuzhansahin) and [Nida kapmaz]((https://github.com/kapmaznida)
