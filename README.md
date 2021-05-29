@@ -21,3 +21,15 @@ Equal Contribution
 | Encoder-Decoder Model      |       x       |             |
 | Flask                      |       x       |      x      |    
 | Deployment                 |       x       |             | 
+
+
+## Pipeline
+
+- Crawler
+  - Web crawling is a component of web scraping, the crawler logic finds URLs to be processed by the scraper code.
+  - Used Scrapy library for this task.
+  - Built Scrapy crawler for Webtekno.com and collected about 18k news links.
+- Scraping
+- Labelling
+- Model
+- Flask
